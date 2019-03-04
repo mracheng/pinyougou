@@ -20,7 +20,7 @@ public class BrandController {
 	@RequestMapping("/findAll")
 	private List<TbBrand> findAll(){
 		
-		
+		//返回查询所有商品的list集合
 		return brandService.findAll();
 	}
 	
